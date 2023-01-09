@@ -53,6 +53,10 @@
             </intent-filter>
         </activity>
 
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
         <receiver
             android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver"
             android:exported="false" />

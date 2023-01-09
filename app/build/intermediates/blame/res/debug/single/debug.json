@@ -8,6 +8,14 @@
         "source": "E:\\MovieApp\\Cinemaghar2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "E:\\MovieApp\\Cinemaghar2\\app\\build\\intermediates\\res\\merged\\debug\\font_alata.xml.flat",
+        "source": "E:\\MovieApp\\Cinemaghar2\\app\\src\\main\\res\\font\\alata.xml"
+    },
+    {
+        "merged": "E:\\MovieApp\\Cinemaghar2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btnlike.png.flat",
+        "source": "E:\\MovieApp\\Cinemaghar2\\app\\src\\main\\res\\drawable\\btnlike.png"
+    },
+    {
         "merged": "E:\\MovieApp\\Cinemaghar2\\app\\build\\intermediates\\res\\merged\\debug\\layout_movie_list_row.xml.flat",
         "source": "E:\\MovieApp\\Cinemaghar2\\app\\src\\main\\res\\layout\\movie_list_row.xml"
     },
@@ -36,16 +44,16 @@
         "source": "E:\\MovieApp\\Cinemaghar2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\MovieApp\\Cinemaghar2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ripple_effect.xml.flat",
-        "source": "E:\\MovieApp\\Cinemaghar2\\app\\src\\main\\res\\drawable\\ripple_effect.xml"
+        "merged": "E:\\MovieApp\\Cinemaghar2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_search_24.xml.flat",
+        "source": "E:\\MovieApp\\Cinemaghar2\\app\\src\\main\\res\\drawable\\ic_baseline_search_24.xml"
     },
     {
         "merged": "E:\\MovieApp\\Cinemaghar2\\app\\build\\intermediates\\res\\merged\\debug\\menu_toolbar_search.xml.flat",
         "source": "E:\\MovieApp\\Cinemaghar2\\app\\src\\main\\res\\menu\\toolbar_search.xml"
     },
     {
-        "merged": "E:\\MovieApp\\Cinemaghar2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_search_24.xml.flat",
-        "source": "E:\\MovieApp\\Cinemaghar2\\app\\src\\main\\res\\drawable\\ic_baseline_search_24.xml"
+        "merged": "E:\\MovieApp\\Cinemaghar2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ripple_effect.xml.flat",
+        "source": "E:\\MovieApp\\Cinemaghar2\\app\\src\\main\\res\\drawable\\ripple_effect.xml"
     },
     {
         "merged": "E:\\MovieApp\\Cinemaghar2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_blue_bar.xml.flat",

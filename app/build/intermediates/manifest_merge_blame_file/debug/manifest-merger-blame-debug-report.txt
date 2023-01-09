@@ -26,7 +26,7 @@
 16-->[com.google.android.gms:play-services-cast-framework:21.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\75dbdd8efb2cad12b7558ec2aeac5962\jetified-play-services-cast-framework-21.0.0\AndroidManifest.xml:10:22-74
 17
 18    <application
-18-->E:\MovieApp\Cinemaghar2\app\src\main\AndroidManifest.xml:9:5-41:19
+18-->E:\MovieApp\Cinemaghar2\app\src\main\AndroidManifest.xml:9:5-45:19
 19        android:allowBackup="true"
 19-->E:\MovieApp\Cinemaghar2\app\src\main\AndroidManifest.xml:10:9-35
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -93,95 +93,102 @@
 52            </intent-filter>
 53        </activity>
 54
-55        <receiver
-55-->[com.google.android.gms:play-services-cast-framework:21.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\75dbdd8efb2cad12b7558ec2aeac5962\jetified-play-services-cast-framework-21.0.0\AndroidManifest.xml:13:9-15:40
-56            android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver"
-56-->[com.google.android.gms:play-services-cast-framework:21.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\75dbdd8efb2cad12b7558ec2aeac5962\jetified-play-services-cast-framework-21.0.0\AndroidManifest.xml:14:13-91
-57            android:exported="false" />
-57-->[com.google.android.gms:play-services-cast-framework:21.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\75dbdd8efb2cad12b7558ec2aeac5962\jetified-play-services-cast-framework-21.0.0\AndroidManifest.xml:15:13-37
+55        <meta-data
+55-->E:\MovieApp\Cinemaghar2\app\src\main\AndroidManifest.xml:42:9-44:57
+56            android:name="preloaded_fonts"
+56-->E:\MovieApp\Cinemaghar2\app\src\main\AndroidManifest.xml:43:13-43
+57            android:resource="@array/preloaded_fonts" />
+57-->E:\MovieApp\Cinemaghar2\app\src\main\AndroidManifest.xml:44:13-54
 58
-59        <service
-59-->[com.google.android.gms:play-services-cast-framework:21.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\75dbdd8efb2cad12b7558ec2aeac5962\jetified-play-services-cast-framework-21.0.0\AndroidManifest.xml:17:9-20:61
-60            android:name="com.google.android.gms.cast.framework.media.MediaNotificationService"
-60-->[com.google.android.gms:play-services-cast-framework:21.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\75dbdd8efb2cad12b7558ec2aeac5962\jetified-play-services-cast-framework-21.0.0\AndroidManifest.xml:18:13-96
-61            android:exported="false"
-61-->[com.google.android.gms:play-services-cast-framework:21.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\75dbdd8efb2cad12b7558ec2aeac5962\jetified-play-services-cast-framework-21.0.0\AndroidManifest.xml:19:13-37
-62            android:foregroundServiceType="mediaPlayback" />
-62-->[com.google.android.gms:play-services-cast-framework:21.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\75dbdd8efb2cad12b7558ec2aeac5962\jetified-play-services-cast-framework-21.0.0\AndroidManifest.xml:20:13-58
+59        <receiver
+59-->[com.google.android.gms:play-services-cast-framework:21.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\75dbdd8efb2cad12b7558ec2aeac5962\jetified-play-services-cast-framework-21.0.0\AndroidManifest.xml:13:9-15:40
+60            android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver"
+60-->[com.google.android.gms:play-services-cast-framework:21.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\75dbdd8efb2cad12b7558ec2aeac5962\jetified-play-services-cast-framework-21.0.0\AndroidManifest.xml:14:13-91
+61            android:exported="false" />
+61-->[com.google.android.gms:play-services-cast-framework:21.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\75dbdd8efb2cad12b7558ec2aeac5962\jetified-play-services-cast-framework-21.0.0\AndroidManifest.xml:15:13-37
+62
 63        <service
-63-->[com.google.android.gms:play-services-cast-framework:21.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\75dbdd8efb2cad12b7558ec2aeac5962\jetified-play-services-cast-framework-21.0.0\AndroidManifest.xml:21:9-23:40
-64            android:name="com.google.android.gms.cast.framework.ReconnectionService"
-64-->[com.google.android.gms:play-services-cast-framework:21.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\75dbdd8efb2cad12b7558ec2aeac5962\jetified-play-services-cast-framework-21.0.0\AndroidManifest.xml:22:13-85
-65            android:exported="false" />
-65-->[com.google.android.gms:play-services-cast-framework:21.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\75dbdd8efb2cad12b7558ec2aeac5962\jetified-play-services-cast-framework-21.0.0\AndroidManifest.xml:23:13-37
-66
-67        <activity
-67-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\88cd95fb09ba64e0d5cb503f5c02a7eb\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
-68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-68-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\88cd95fb09ba64e0d5cb503f5c02a7eb\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:19-85
-69            android:exported="false"
-69-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\88cd95fb09ba64e0d5cb503f5c02a7eb\jetified-play-services-base-18.0.0\AndroidManifest.xml:22:19-43
-70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-70-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\88cd95fb09ba64e0d5cb503f5c02a7eb\jetified-play-services-base-18.0.0\AndroidManifest.xml:21:19-78
-71
-72        <meta-data
-72-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\986ee6a30c8578711f93679ed0cfadd8\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
-73            android:name="com.google.android.gms.version"
-73-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\986ee6a30c8578711f93679ed0cfadd8\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
-74            android:value="@integer/google_play_services_version" />
-74-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\986ee6a30c8578711f93679ed0cfadd8\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+63-->[com.google.android.gms:play-services-cast-framework:21.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\75dbdd8efb2cad12b7558ec2aeac5962\jetified-play-services-cast-framework-21.0.0\AndroidManifest.xml:17:9-20:61
+64            android:name="com.google.android.gms.cast.framework.media.MediaNotificationService"
+64-->[com.google.android.gms:play-services-cast-framework:21.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\75dbdd8efb2cad12b7558ec2aeac5962\jetified-play-services-cast-framework-21.0.0\AndroidManifest.xml:18:13-96
+65            android:exported="false"
+65-->[com.google.android.gms:play-services-cast-framework:21.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\75dbdd8efb2cad12b7558ec2aeac5962\jetified-play-services-cast-framework-21.0.0\AndroidManifest.xml:19:13-37
+66            android:foregroundServiceType="mediaPlayback" />
+66-->[com.google.android.gms:play-services-cast-framework:21.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\75dbdd8efb2cad12b7558ec2aeac5962\jetified-play-services-cast-framework-21.0.0\AndroidManifest.xml:20:13-58
+67        <service
+67-->[com.google.android.gms:play-services-cast-framework:21.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\75dbdd8efb2cad12b7558ec2aeac5962\jetified-play-services-cast-framework-21.0.0\AndroidManifest.xml:21:9-23:40
+68            android:name="com.google.android.gms.cast.framework.ReconnectionService"
+68-->[com.google.android.gms:play-services-cast-framework:21.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\75dbdd8efb2cad12b7558ec2aeac5962\jetified-play-services-cast-framework-21.0.0\AndroidManifest.xml:22:13-85
+69            android:exported="false" />
+69-->[com.google.android.gms:play-services-cast-framework:21.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\75dbdd8efb2cad12b7558ec2aeac5962\jetified-play-services-cast-framework-21.0.0\AndroidManifest.xml:23:13-37
+70
+71        <activity
+71-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\88cd95fb09ba64e0d5cb503f5c02a7eb\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
+72            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+72-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\88cd95fb09ba64e0d5cb503f5c02a7eb\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:19-85
+73            android:exported="false"
+73-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\88cd95fb09ba64e0d5cb503f5c02a7eb\jetified-play-services-base-18.0.0\AndroidManifest.xml:22:19-43
+74            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+74-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\88cd95fb09ba64e0d5cb503f5c02a7eb\jetified-play-services-base-18.0.0\AndroidManifest.xml:21:19-78
 75
-76        <provider
-76-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\149f20d81f95b24de76edf3f3b6a1498\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-77            android:name="androidx.startup.InitializationProvider"
-77-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\149f20d81f95b24de76edf3f3b6a1498\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-78            android:authorities="com.themoviedb.movieslibrary.androidx-startup"
-78-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\149f20d81f95b24de76edf3f3b6a1498\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-79            android:exported="false" >
-79-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\149f20d81f95b24de76edf3f3b6a1498\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-80            <meta-data
-80-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\149f20d81f95b24de76edf3f3b6a1498\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-81                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-81-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\149f20d81f95b24de76edf3f3b6a1498\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-82                android:value="androidx.startup" />
-82-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\149f20d81f95b24de76edf3f3b6a1498\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-83            <meta-data
-83-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\83bc47a0d78403a163def5fd657c6a4a\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-84                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-84-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\83bc47a0d78403a163def5fd657c6a4a\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-85                android:value="androidx.startup" />
-85-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\83bc47a0d78403a163def5fd657c6a4a\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-86        </provider>
-87
-88        <service
-88-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\c2a17ae0f4ec007a360150acf654853d\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
-89            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-89-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\c2a17ae0f4ec007a360150acf654853d\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
-90            android:exported="false" >
-90-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\c2a17ae0f4ec007a360150acf654853d\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
-91            <meta-data
-91-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\c2a17ae0f4ec007a360150acf654853d\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
-92                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-92-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\c2a17ae0f4ec007a360150acf654853d\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
-93                android:value="cct" />
-93-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\c2a17ae0f4ec007a360150acf654853d\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
-94        </service>
-95        <service
-95-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\1ca36e8476d1d46fc255598dff804cc4\jetified-transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
-96            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-96-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\1ca36e8476d1d46fc255598dff804cc4\jetified-transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
-97            android:exported="false"
-97-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\1ca36e8476d1d46fc255598dff804cc4\jetified-transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
-98            android:permission="android.permission.BIND_JOB_SERVICE" >
-98-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\1ca36e8476d1d46fc255598dff804cc4\jetified-transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
-99        </service>
-100
-101        <receiver
-101-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\1ca36e8476d1d46fc255598dff804cc4\jetified-transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
-102            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-102-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\1ca36e8476d1d46fc255598dff804cc4\jetified-transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
-103            android:exported="false" />
-103-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\1ca36e8476d1d46fc255598dff804cc4\jetified-transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
-104    </application>
-105
-106</manifest>
+76        <meta-data
+76-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\986ee6a30c8578711f93679ed0cfadd8\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+77            android:name="com.google.android.gms.version"
+77-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\986ee6a30c8578711f93679ed0cfadd8\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+78            android:value="@integer/google_play_services_version" />
+78-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\986ee6a30c8578711f93679ed0cfadd8\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+79
+80        <provider
+80-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\149f20d81f95b24de76edf3f3b6a1498\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+81            android:name="androidx.startup.InitializationProvider"
+81-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\149f20d81f95b24de76edf3f3b6a1498\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+82            android:authorities="com.themoviedb.movieslibrary.androidx-startup"
+82-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\149f20d81f95b24de76edf3f3b6a1498\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+83            android:exported="false" >
+83-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\149f20d81f95b24de76edf3f3b6a1498\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+84            <meta-data
+84-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\149f20d81f95b24de76edf3f3b6a1498\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+85                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+85-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\149f20d81f95b24de76edf3f3b6a1498\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+86                android:value="androidx.startup" />
+86-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\149f20d81f95b24de76edf3f3b6a1498\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+87            <meta-data
+87-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\83bc47a0d78403a163def5fd657c6a4a\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+88                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+88-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\83bc47a0d78403a163def5fd657c6a4a\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+89                android:value="androidx.startup" />
+89-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\83bc47a0d78403a163def5fd657c6a4a\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+90        </provider>
+91
+92        <service
+92-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\c2a17ae0f4ec007a360150acf654853d\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+93            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+93-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\c2a17ae0f4ec007a360150acf654853d\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+94            android:exported="false" >
+94-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\c2a17ae0f4ec007a360150acf654853d\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+95            <meta-data
+95-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\c2a17ae0f4ec007a360150acf654853d\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+96                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+96-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\c2a17ae0f4ec007a360150acf654853d\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+97                android:value="cct" />
+97-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\c2a17ae0f4ec007a360150acf654853d\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+98        </service>
+99        <service
+99-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\1ca36e8476d1d46fc255598dff804cc4\jetified-transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
+100            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+100-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\1ca36e8476d1d46fc255598dff804cc4\jetified-transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
+101            android:exported="false"
+101-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\1ca36e8476d1d46fc255598dff804cc4\jetified-transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
+102            android:permission="android.permission.BIND_JOB_SERVICE" >
+102-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\1ca36e8476d1d46fc255598dff804cc4\jetified-transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
+103        </service>
+104
+105        <receiver
+105-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\1ca36e8476d1d46fc255598dff804cc4\jetified-transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
+106            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+106-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\1ca36e8476d1d46fc255598dff804cc4\jetified-transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
+107            android:exported="false" />
+107-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\1ca36e8476d1d46fc255598dff804cc4\jetified-transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
+108    </application>
+109
+110</manifest>
