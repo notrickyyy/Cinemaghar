@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.themoviedb.movieslibrary",
+  "applicationId": "com.rikesh.cinemaghar",
   "variantName": "debug",
   "elements": [
     {

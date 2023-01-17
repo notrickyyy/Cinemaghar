@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.themoviedb.movieslibrary"
+    package="com.rikesh.cinemaghar"
     android:targetSandboxVersion="2"
     android:versionCode="1"
     android:versionName="1.0" >
@@ -27,8 +27,9 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.themoviedb.movieslibrary.View.MainActivity"
+            android:name="com.rikesh.cinemaghar.View.MainActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+            android:exported="true"
             android:launchMode="singleTop" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,16 +38,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.themoviedb.movieslibrary.View.MovieDetails"
+            android:name="com.rikesh.cinemaghar.View.MovieDetails"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+            android:exported="true"
             android:launchMode="singleTop" >
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
-            android:name="com.themoviedb.movieslibrary.View.MoviesSearch"
+            android:name="com.rikesh.cinemaghar.View.MoviesSearch"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+            android:exported="true"
             android:launchMode="singleTop" >
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
@@ -80,7 +83,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.themoviedb.movieslibrary.androidx-startup"
+            android:authorities="com.rikesh.cinemaghar.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

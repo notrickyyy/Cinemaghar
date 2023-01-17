@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.themoviedb.movieslibrary"
+        applicationId "com.rikesh.cinemaghar"
         minSdkVersion 21
         targetSdkVersion 31
         versionCode 1
